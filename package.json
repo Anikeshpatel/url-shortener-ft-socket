@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener-ft-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "run:client": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anikeshpatel/url-shortener-ft-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anikeshpatel/url-shortener-ft-socket/issues"
+  },
+  "homepage": "https://github.com/Anikeshpatel/url-shortener-ft-socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  }
+}
